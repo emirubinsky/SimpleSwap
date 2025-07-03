@@ -43,7 +43,7 @@ It inherits from `TokenPair`, which handles the LP token logic.
 5. Reserves are dynamically retrieved from contract balance
 
 
-Contract Interface
+CONTRACT INTERFACE
 
 ## Smart Contract
 
@@ -133,7 +133,7 @@ function _calcLiquidity(
     uint256 reserveB
 ) internal view returns (uint256 liquidity);
 
-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Deployment Information
 Network: Sepolia
