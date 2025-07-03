@@ -45,7 +45,7 @@ It inherits from `TokenPair`, which handles the LP token logic.
 
 
 
-##CONTRACT INTERFACE
+- CONTRACT INTERFACE
 
 ## Smart Contract
 
