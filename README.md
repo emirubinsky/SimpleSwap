@@ -42,6 +42,9 @@ It inherits from `TokenPair`, which handles the LP token logic.
 4. Liquidity can be removed by burning LP tokens
 5. Reserves are dynamically retrieved from contract balance
 
+
+Contract Interface
+
 ## Smart Contract
 
 ### Constructor
@@ -130,7 +133,9 @@ function _calcLiquidity(
     uint256 reserveB
 ) internal view returns (uint256 liquidity);
 
-Deployment
+----------------------------------------------------------------------------------------------------------------------------------
+
+Deployment Information
 Network: Sepolia
 Contract Address: [INSERT_CONTRACT_ADDRESS]
 Deployer: [YOUR_WALLET_ADDRESS]
