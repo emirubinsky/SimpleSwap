@@ -47,27 +47,6 @@ It inherits from `TokenPair`, which handles the LP token logic.
 
 - CONTRACT INTERFACE
 
-## Smart Contract
-
-### Constructor
-```solidity
-constructor() TokenPair("LP", "LiquidityPair") {
-    mint(address(this), MIN_LIQUIDITY);
-}
-
-
-##Modifiers
-
-modifier ensure(uint256 deadline) {
-    require(deadline >= block.timestamp, "EXPIRED");
-    _;
-}
-
-##Events
-event LiquidityAdded(address indexed provider, uint256 aAmount, uint256 bAmount);
-event LiquidityRemoved(address indexed provider, uint256 aAmount, uint256 bAmount);
-event Swap(address indexed sender, address indexed recipient, uint256 inAmount, uint256 outAmount);
-
 
 ##Public Functions
 ##addLiquidity
